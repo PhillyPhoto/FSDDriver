@@ -26,3 +26,25 @@ Button and pointer reports are forwarded too.
 3. **Calibrate** tab: measure counts per revolution (several turns gives a better result).
 4. **Response** tab: set the base speed and acceleration curve, then try the test area.
 5. Turn on **Driver**. The app keeps running from the menu bar after you close the window.
+
+## Screenshots
+
+### Live
+Real-time speed, gain, report rate, counts per report, and the raw HID report log.
+
+![Live tab](docs/screenshots/1-live.png)
+
+### Calibrate
+Measure counts per revolution by turning the dial a known number of full turns.
+
+![Calibrate tab](docs/screenshots/2-calibrate.png)
+
+### Response
+Tune base speed and the acceleration curve, then try it in the test area.
+
+![Response tab](docs/screenshots/3-response.png)
+
+### Device
+Device info, HID resolution multiplier controls, launch at login, and permission status.
+
+![Device tab](docs/screenshots/4-device.png)
