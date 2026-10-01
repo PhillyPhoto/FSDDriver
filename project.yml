@@ -1,0 +1,30 @@
+name: FSDDriver
+options:
+  bundleIdPrefix: com.luielugo
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+targets:
+  FSDDriver:
+    type: application
+    platform: macOS
+    sources:
+      - FSDDriver
+    settings:
+      base:
+        PRODUCT_NAME: Full Scroll Dial
+        PRODUCT_BUNDLE_IDENTIFIER: com.luielugo.FSDDriver
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_CFBundleDisplayName: Full Scroll Dial
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: NO
+        ENABLE_APP_SANDBOX: NO

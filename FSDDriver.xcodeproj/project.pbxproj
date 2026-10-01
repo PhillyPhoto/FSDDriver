@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1C64E7CD093036732692EF /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6DB5D8850C6F646842345 /* ResponseView.swift */; };
+		12BA43E332FF9A07B60AC395 /* DialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87F4588AACA329B02BA748 /* DialController.swift */; };
+		4C7DD3A47427A746A32B6FA0 /* EventPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CA242D6373D728511BD60 /* EventPoster.swift */; };
+		534CE019D092296EB358176C /* FSDDriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF48A17BB63B83F9DDEF8 /* FSDDriverApp.swift */; };
+		69C5E28464A96B6AAAB0DA14 /* Calibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C0B57DC040F7C8C3690A7 /* Calibration.swift */; };
+		73E865C65371F3FD4A02F6F4 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F1BA1E9189EA0328D3EEB /* LiveView.swift */; };
+		7E6CC0942F11AA539BFCC5AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9D0FE77DA670A9FF5092F /* ContentView.swift */; };
+		942C647EFC27AD9BCFFFCDE4 /* CalibrateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE08FD73D1E9D5C0F3F810 /* CalibrateView.swift */; };
+		B7A644007508A5A56D9C9E5F /* DialHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70029EB2CC12B3BBAE79B1AF /* DialHID.swift */; };
+		BC0FD90C6F3F0A978D3E3CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D08528F975DBFA4DE2508BC /* Assets.xcassets */; };
+		D55704FC2DD07A5770F76704 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000404F2E12C3118C8458E4 /* DeviceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26D9D0FE77DA670A9FF5092F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D8E190EEAB94033815A49E3 /* FSDDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSDDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAE08FD73D1E9D5C0F3F810 /* CalibrateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrateView.swift; sourceTree = "<group>"; };
+		5F4F1BA1E9189EA0328D3EEB /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
+		70029EB2CC12B3BBAE79B1AF /* DialHID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialHID.swift; sourceTree = "<group>"; };
+		9D08528F975DBFA4DE2508BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB8AF48A17BB63B83F9DDEF8 /* FSDDriverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSDDriverApp.swift; sourceTree = "<group>"; };
+		BC0CA242D6373D728511BD60 /* EventPoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPoster.swift; sourceTree = "<group>"; };
+		BD87F4588AACA329B02BA748 /* DialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialController.swift; sourceTree = "<group>"; };
+		D000404F2E12C3118C8458E4 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		F25C0B57DC040F7C8C3690A7 /* Calibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calibration.swift; sourceTree = "<group>"; };
+		F8F6DB5D8850C6F646842345 /* ResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		180A69855427B2D2C95A4A92 /* FSDDriver */ = {
+			isa = PBXGroup;
+			children = (
+				9D08528F975DBFA4DE2508BC /* Assets.xcassets */,
+				5CAE08FD73D1E9D5C0F3F810 /* CalibrateView.swift */,
+				F25C0B57DC040F7C8C3690A7 /* Calibration.swift */,
+				26D9D0FE77DA670A9FF5092F /* ContentView.swift */,
+				D000404F2E12C3118C8458E4 /* DeviceView.swift */,
+				BD87F4588AACA329B02BA748 /* DialController.swift */,
+				70029EB2CC12B3BBAE79B1AF /* DialHID.swift */,
+				BC0CA242D6373D728511BD60 /* EventPoster.swift */,
+				BB8AF48A17BB63B83F9DDEF8 /* FSDDriverApp.swift */,
+				5F4F1BA1E9189EA0328D3EEB /* LiveView.swift */,
+				F8F6DB5D8850C6F646842345 /* ResponseView.swift */,
+			);
+			path = FSDDriver;
+			sourceTree = "<group>";
+		};
+		A6862DABC74796A49A0338D9 = {
+			isa = PBXGroup;
+			children = (
+				180A69855427B2D2C95A4A92 /* FSDDriver */,
+				DDF077CBFD9E0A377DD53C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF077CBFD9E0A377DD53C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D8E190EEAB94033815A49E3 /* FSDDriver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE23C8566D73D9252D612AA /* FSDDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD636F81483973B11F316AEE /* Build configuration list for PBXNativeTarget "FSDDriver" */;
+			buildPhases = (
+				3F5146FDB9B765B76FA055BC /* Sources */,
+				05BD1B86D8A9E6CA6E828A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSDDriver;
+			packageProductDependencies = (
+			);
+			productName = FSDDriver;
+			productReference = 2D8E190EEAB94033815A49E3 /* FSDDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B211DDE92BFAE3FC6009C363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9BE23C8566D73D9252D612AA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE142FCF243E0E53EF0F4204 /* Build configuration list for PBXProject "FSDDriver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A6862DABC74796A49A0338D9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDF077CBFD9E0A377DD53C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE23C8566D73D9252D612AA /* FSDDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BD1B86D8A9E6CA6E828A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0FD90C6F3F0A978D3E3CC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5146FDB9B765B76FA055BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942C647EFC27AD9BCFFFCDE4 /* CalibrateView.swift in Sources */,
+				69C5E28464A96B6AAAB0DA14 /* Calibration.swift in Sources */,
+				7E6CC0942F11AA539BFCC5AD /* ContentView.swift in Sources */,
+				D55704FC2DD07A5770F76704 /* DeviceView.swift in Sources */,
+				12BA43E332FF9A07B60AC395 /* DialController.swift in Sources */,
+				B7A644007508A5A56D9C9E5F /* DialHID.swift in Sources */,
+				4C7DD3A47427A746A32B6FA0 /* EventPoster.swift in Sources */,
+				534CE019D092296EB358176C /* FSDDriverApp.swift in Sources */,
+				73E865C65371F3FD4A02F6F4 /* LiveView.swift in Sources */,
+				0C1C64E7CD093036732692EF /* ResponseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44EDDF4E88D0EE14CC5371C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5137B1B546E732EC4A9F986B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Full Scroll Dial";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luielugo.FSDDriver;
+				PRODUCT_NAME = "Full Scroll Dial";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D2AC17D45F62B20410EFDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A11C362D4937FFC93683E778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Full Scroll Dial";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luielugo.FSDDriver;
+				PRODUCT_NAME = "Full Scroll Dial";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE142FCF243E0E53EF0F4204 /* Build configuration list for PBXProject "FSDDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EDDF4E88D0EE14CC5371C6 /* Debug */,
+				5D2AC17D45F62B20410EFDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD636F81483973B11F316AEE /* Build configuration list for PBXNativeTarget "FSDDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11C362D4937FFC93683E778 /* Debug */,
+				5137B1B546E732EC4A9F986B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B211DDE92BFAE3FC6009C363 /* Project object */;
+}
